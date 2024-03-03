@@ -1,0 +1,78 @@
+
+/* -------- contact form & map section starting --------- */
+.contact-aria{
+    margin-top: 50px;
+}
+.contact-form{
+    height: 100%;
+    padding: 20px;
+    border: 2px solid rgb(214, 214, 214);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.contact-form > input,
+.contact-form > textarea{
+   width: 100%;
+   padding: 10px;
+   outline: none;
+   font-size: 14px;
+   margin-top: 10px;
+   color: #081621;
+   border: 2px solid rgb(214, 214, 214);
+   border-radius: 5px;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   -ms-border-radius: 5px;
+   -o-border-radius: 5px;
+}
+.contact-form > textarea{
+    height: 120px;
+}
+.contact-form > div > button{
+    padding: 8px;
+    width: 100px;
+    font-weight: bold;
+    font-size: 14px;
+    border: 2px solid rgb(214, 214, 214);
+    background-color: transparent;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+
+.contact-section{
+    height: 400px;
+}
+.contact-section {
+    padding: 0%;
+    margin: 0%;
+}
+.contact-section > iframe{
+    height: 100%;
+    width: 100%;
+}
+/* -------- contact form & map section ending --------- */
+
+
+
+
+@media (max-width:768px){
+    .contact{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .contact-box{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .contact-section > iframe{
+        margin-top: 20px;
+        padding: 0 10px 0 10px;
+    }
+}

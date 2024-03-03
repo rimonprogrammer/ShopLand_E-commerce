@@ -1,0 +1,125 @@
+.hero{
+    margin-top: 250px;
+}
+
+
+/* >>>>>>>>>> categories section start <<<<<<<<<< */
+.Catagories > h4{
+    display: none;
+}
+.Catagories > ul {
+    padding: 0%;
+}
+.Catagories > ul > .link > button{
+    width: 190px;
+    margin: 3px;
+    border: none;
+    outline: none;
+    display: flex;
+    text-align: end;
+    cursor: pointer;
+    font-size: 14px;
+    position: relative;
+    color: rgb(15, 15, 7);
+    align-items: center;
+    text-transform: capitalize;
+    padding: 1.5px 20px 1.5px 20px;
+    background-color: rgba(194, 194, 194, 0.7);
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    -o-transition: all .4s ease;
+}
+.Catagories > ul > .link > button::after{
+    content: '';
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+}
+.Catagories > ul > .link > button:hover{
+    background-color: rgb(164, 164, 164);
+}
+.Catagories > ul > .link > button > img{
+    height: 40px;
+    width: 40px;
+    margin-right: 20px;
+}
+@media (max-width:1100px){
+    .Catagories > ul {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 0px;
+        justify-content: center;
+    }
+    .Catagories > ul > .link > button{
+        display: flex;
+        width: 170px;
+        font-size: 13px;
+        padding: 0px 10px 0px 20px;
+    }
+}
+@media (max-width:992px){
+    .Catagories > h4{
+        display: block;
+    }
+}
+/* >>>>>>>>>> categories section end <<<<<<<<<< */
+
+
+/* >>>>>>>>>>>> carousel section start <<<<<<<<<<<< */
+.carousel{
+    margin-top: 4px;
+}
+.carousel-item{
+    width: 100%;
+    height: 455px;
+}
+.carousel-item > img{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    object-position: center;
+}
+
+.active-Indicators,
+.indicators{
+    height: 8px !important;
+    width: 50px !important;
+    background-color: orangered !important;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+    width: 25px;
+    position: absolute;
+    height: 90px !important;
+    background-color: rgb(45, 41, 41);
+}
+.carousel-control-prev-icon{
+    left: 0%;
+}
+.carousel-control-next-icon{
+    right: 0%;
+}
+
+
+
+@media (max-width:768px){
+    .carousel-item{
+        height: 300px;
+    }
+    .active-Indicators,
+    .indicators{
+        height: 4px !important;
+        width: 30px !important;
+    }
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon{
+        width: 20px;
+        height: 50px !important;
+    }
+}

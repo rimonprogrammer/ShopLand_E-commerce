@@ -1,0 +1,311 @@
+/* >>>>>>>>>> header top section starting <<<<<<<<<<<<< */
+.header-top-bg{
+    height: 70px;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    background-color: #222836;
+}
+.header-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-top > .header-logo > .link > img{
+    margin: 0%;
+    padding: 0%;
+    height: 75px;
+    margin-left: -30px;
+}
+.header-top > .header-logo {
+    display: flex;
+    align-items: center;
+}
+/* ---- logo end --- */
+
+/* ---- search input starting ---- */
+.header-top > div >.header-searchBox{
+    margin-left: 30px;
+}
+.header-top > div >.header-searchBox > input{
+    width: 600px;
+    padding: 10px;
+    outline: none;
+    font-size: 14px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.header-top > div >.header-searchBox > .HomeSearchLink > button{
+    width: 100px;
+    padding: 8px;
+    border: none;
+    outline: none;
+    color: beige;
+    font-weight: bold;
+    margin-left: -100px;
+    padding-bottom: 9.5px;
+    background-color: orange;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.header-top > div >.header-searchBox > .HomeSearchLink > button > i{
+    cursor: pointer;
+    font-size: 12px;
+    padding-left: 5px;
+}
+/* ---- search input ending ---- */
+
+/* ---- cart & login section starting --- */
+.header-userData {
+    display: flex;
+}
+.cart-icon {
+    color: aliceblue;
+    margin-top: 15px;
+    font-size: 19px;
+    margin: 10px;
+}
+.badge{
+    font-size: 10px;
+    right: 2%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15px;
+    width: 15px;
+}
+.authentication-btn,
+.header-userData > div > .header-userData-icon > button{
+    border: none;
+    outline: none;
+    padding: 5px;
+    width: 80px;
+    height: 30px;
+    color: beige;
+    font-size: 14px;
+    margin-top: 12px !important;
+    background-color: #6454F1;
+    position: relative;
+}
+/* ---- cart & login section ending --- */
+.header-bar{
+    display: none;
+    border: none;
+    outline: none;
+    width: 50px;
+    z-index: 999 ;
+    margin-top: -10px !important;
+    background-color: transparent;
+}
+.FaBars{
+    margin-top: 8px;
+    font-size: 30px;
+    color: beige;
+}
+.ImCross{
+    margin-top: 8px;
+    font-size: 20px;
+    color: orangered;
+}
+/* >>>>>>>>>> header top section ending <<<<<<<<<<<<< */
+
+
+
+/* >>>>>>>>>> header routine section starting <<<<<<<<<<<<< */
+.sticky-top{
+    position: fixed;
+    width: 100%;
+}
+.header-routine{
+    height: 55px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255);
+    border-bottom: 2px solid rgb(220, 220, 220);
+}
+.category-btn{
+    padding: 10px;
+    width: 190px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    color: #ffffff;
+    margin-left: 3px;
+    font-size: 14.5px;
+    background-color: #6454F1;
+    position: relative;
+}
+.nav-link{
+    margin: 0 5px 0 0;
+    font-weight: 650;
+    color: #081621;
+    font-size: 14.5px;
+}
+.home{
+    margin-left: 15px;
+}
+.nav-link-selected{
+    color: orangered;
+    position: relative;
+}
+.nav-link-selected::after{
+    position: absolute;
+    content: '';
+    bottom: 20%;
+    left: 0%;
+    height: 2px;
+    width: 100%;
+    background-color: orangered;
+}
+.nav-link:hover,
+.nav-link-selected:hover{
+    color: orangered;
+}
+/* >>>>>>>>>> header routine section ending <<<<<<<<<<<<< */
+
+
+
+
+/* ================================================
+----------- responsive section starting -----------
+================================================ */
+@media (max-width:1400px){
+    .header-top > .header-logo > .link > img{
+        margin-left: 0px;
+    }
+    .navbar-nav{
+        margin-left: 30px;
+    }
+    .category-btn{
+        margin-left: -27px;
+    }
+}
+@media (max-width:1100px){
+    .nav-link{
+        font-size: 13px;
+    }
+    .category-btn{
+        width: 170px;
+        font-size: 13px;
+    }
+}
+@media (max-width:992px){
+    .category-btn{
+        display: none;
+    }
+    .header-top > div > .header-searchBox > input{
+        width: 400px;
+    }
+    .header-bar{
+        display: block;
+    }
+    .header-bar > i{
+        margin: 0 10px;
+        color: aliceblue;
+        margin-top: 15px;
+        font-size: 25px;
+    }
+    .header-bar:hover > i{
+        color: orangered;
+        transition: all .2s ease;
+        -webkit-transition: all .2s ease;
+        -moz-transition: all .2s ease;
+        -ms-transition: all .2s ease;
+        -o-transition: all .2s ease;
+    }
+    .NavBarShow{
+        display: none;
+        left: -50%;
+    }
+    .navbar-nav{
+        margin-top: -50px;
+    }
+    .NavBarHidden{
+        left: 0%;
+        width: 30%;
+        height: 100vh;
+        overflow:hidden;
+        top: 0%;
+        left: 0%;
+        z-index: 99;
+        overflow: hidden;
+        color: #121212;
+        text-align: start;
+        box-shadow: 0 0 10px rgb(94, 93, 93);
+        background-color: rgb(229, 229, 229);
+        position: fixed !important;
+        align-items: center;
+        justify-content: center;
+    }
+    .sticky-top-header{
+        width: 100%;
+        position: fixed;
+    }
+    .sticky-top-header > div > div > div > form > .HomeSearchLink > button,
+    .sticky-top-header > div > div > div > form input{
+        display: none;
+    }
+}
+@media (max-width:768px){
+    /* --- header top ----- */
+    .header-top > .header-logo > .link > img{
+        height: 55px;
+        margin-left: -10px;
+    }
+    .header-top > div >.header-searchBox{
+        margin-left: 0px;
+    }
+    .header-top > div >.header-searchBox > .HomeSearchLink > button{
+        position: absolute;
+        top: 77.5px;
+        right: 5%;
+        z-index: 9;
+        padding: 8.5px;
+    }
+    .header-top > div > .header-searchBox > input{
+        position: absolute;
+        width: 90%;
+        top: 77.5px;
+        left: 4.7%;
+        font-size: 14px;
+        color: #2c2d2e;
+        z-index: 8;
+    }
+    .header-userData > div > .header-userData-icon > i {
+        font-size: 16px;
+    }
+    .header-userData > div > .header-userData-icon > i > span{
+        font-size: 8px;
+        height: 15px;
+        width: 15px;
+        padding-right: 1px;
+    }
+    .header-userData > div > .header-userData-icon > button{
+        padding: 2px;
+        width: 70px;
+        font-size: 15px;
+    }
+    /* --- header top ----- */
+
+    /* --- header routine ---- */
+    .sticky-top{
+        position: static;
+    }
+    .header-routine{
+        background-color: #525050;
+    }
+    .navbar-nav,
+    .home{
+        margin-left: 0px;
+    }
+    /* --- header routine ---- */
+
+}
+
+/* ================================================
+----------- responsive section ending -----------
+================================================ */

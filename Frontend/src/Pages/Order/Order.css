@@ -1,0 +1,33 @@
+
+.order-table{
+    max-width: 600px;
+}
+.order-form {
+    width: 360px;
+    padding: 15px;
+    background-color: white;
+}
+.order-form > label{
+    margin-top: 15px;
+}
+.order-form > input{
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    color: #6454F1;
+    font-size: 14px;
+    outline: none;
+    border: 1px solid #6454F1;
+}
+.order-form > input::placeholder{
+    color: #6454F1;
+    font-size: 14px;
+}
+
+
+
+@media (max-width:768px){
+    .product-cart-img {
+        width: 100%;
+    }
+}
