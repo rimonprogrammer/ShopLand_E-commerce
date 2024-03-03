@@ -1,5 +1,5 @@
-<h4>SnapDeal e-commerce website</h4>
-<p>This is a SnapDeal e-commerce website. SnapDeal e-commerce website is made with React-JS, Node-JS, Express-JS, MongoDB, Bootstrap, & CSS. In this project, I've implemented a user authentication system + bcrypt js security, shopping cart functionality, product searching, product sorting, product category filter, product details, visually appealing & mobile responsive user interface. I've used context API, React router, React-icons, React-toasty, React-slick, useReducer & Other hooks</p>
+<h4>ShopLand e-commerce website</h4>
+<p>This is a ShopLand e-commerce website. ShopLand e-commerce website is made with React-JS, Node-JS, Express-JS, MongoDB, Bootstrap, & CSS. In this project, I've implemented a user authentication system + bcrypt js security, shopping cart functionality, product searching, product sorting, product category filter, product details, visually appealing & mobile responsive user interface. I've used context API, React router, React-icons, React-toastify, useReducer & Others hooks</p>
 
 <h4>Using technologies & packages</h4>
 <ul>
@@ -15,7 +15,6 @@
   <li>Formspree</li>
   <li>React-icons</li>
   <li>React-toastify</li>
-  <li>React-slick (careosel)</li>
 </ul>
 
 <h4>What I've implemented?</h4>
@@ -38,12 +37,14 @@
   <li>Attractive alert using react toastify</li>
 </ul>
 
-<img src="" alt="snapdeal website picture" >
-<img src="" alt="snapdeal website picture" >
-<img src="" alt="snapdeal website picture" >
-<img src="" alt="snapdeal website picture" >
-<img src="" alt="snapdeal website picture" >
-<img src="" alt="snapdeal website picture" >
+<h4>Project screenshot</h4>
+<img src="https://rimonprogrammer.netlify.app/public/shopland-1.jpg" alt="shopland website picture" >
+<img src="https://rimonprogrammer.netlify.app/public/shopland-2.jpg" alt="shopland website picture" >
+<img src="https://rimonprogrammer.netlify.app/public/shopland-3.jpg" alt="shopland website picture" >
+<img src="https://rimonprogrammer.netlify.app/public/shopland-4.jpg" alt="shopland website picture" >
+<img src="https://rimonprogrammer.netlify.app/public/shopland-5.jpg" alt="shopland website picture" >
+<img src="https://rimonprogrammer.netlify.app/public/shopland-6.jpg" alt="shopland website picture" >
+<img src="https://rimonprogrammer.netlify.app/public/shopland-7.jpg" alt="shopland website picture" >
 
 Live: https://snap-deals.netlify.app/
 
