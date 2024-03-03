@@ -37,6 +37,15 @@
   <li>Attractive alert using react toastify</li>
 </ul>
 
+Live: https://snap-deals.netlify.app/
+
+<h4>Follow the 3 Steps to get the project</h4>
+<ul>
+  <li>Clone the Project</li>
+  <li>Simply run the command (npm install) for node_modulees folder</li>
+  <li> run the project using npm run dev</li>
+</ul>
+
 <h4>Project screenshot</h4>
 <img src="https://rimonprogrammer.netlify.app/public/shopland-1.jpg" alt="shopland website picture" >
 <img src="https://rimonprogrammer.netlify.app/public/shopland-2.jpg" alt="shopland website picture" >
@@ -46,11 +55,3 @@
 <img src="https://rimonprogrammer.netlify.app/public/shopland-6.jpg" alt="shopland website picture" >
 <img src="https://rimonprogrammer.netlify.app/public/shopland-7.jpg" alt="shopland website picture" >
 
-Live: https://snap-deals.netlify.app/
-
-<h4>Follow the 3 Steps to get the project</h4>
-<ul>
-  <li>Clone the Project</li>
-  <li>Simply run the command (npm install) for node_modulees folder</li>
-  <li> run the project using npm run dev</li>
-</ul>
