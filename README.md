@@ -47,6 +47,7 @@ Live: https://snap-deals.netlify.app/
 </ul>
 
 <h4>Project screenshot</h4>
+<p>Shopland home page</p>
 <img src="https://rimonprogrammer.netlify.app/public/shopland-1.jpg" alt="shopland website picture" >
 <img src="https://rimonprogrammer.netlify.app/public/shopland-2.jpg" alt="shopland website picture" >
 <img src="https://rimonprogrammer.netlify.app/public/shopland-3.jpg" alt="shopland website picture" >
