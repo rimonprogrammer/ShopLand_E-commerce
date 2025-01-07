@@ -37,7 +37,7 @@
   <li>Attractive alert using react toastify</li>
 </ul>
 
-Live: https://snap-deals.netlify.app/
+Live: https://lnkd.in/gnDfEJTi
 
 <h4>Follow the 3 Steps to get the project</h4>
 <ul>
